@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo {
+    display: flex;
+    gap: 30px;   
+}
+
+img {
+    width: 278px;
+    height: 293px; 
+}
+
+.informacoes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+} 
+
+.informacoes h1 {
+    font-size: 25px;
+}
+
+.informacoes h2 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.setaOriginal {
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    right: 9px;
+}
+
+.setaOriginal img {
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    right: 9px;
+}
+
+/* .setaLaranja {
+    background-image: url("../imagens/setaLaranja.png");
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    right: 9px
+} */
+ 
+.paragrafo {
+    border: 1px solid #d4d4d4;
+    width: 40vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.paragrafo p {
+    display: none;
+}
+
+/* .paragrafo.selecionado {
+    display: flex;
+} */
