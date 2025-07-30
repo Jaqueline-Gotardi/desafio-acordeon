@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet">
 
     <title>Document</title>
-</head>
+</head> 
  
 <body> 
 
@@ -22,27 +22,34 @@
         <div class="informacoes">
              <h1>FAQ</h1>
 
-             <div class="paragrafo selecionado">
+             <div class="paragrafo">
+                <div class="cabecalho">
                 <h2>Lorem ipsum dolor sit amet, consectetur?</h2>
-                <button class="btn-troca-cor">
-                    <img src="./src/imagens/seta.png" class="setaOriginal" alt="seta">
+                <button class="btn-troca-cor" aria-expanded="false">
+                    <!-- <img src="./src/imagens/seta.png" class="setaOriginal" alt="seta"> -->
                 </button>
-                
+                </div>
+                <p hidden>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus numquam, quibusdam molestiae eaque dolorem nobis dignissimos fugit quidem quos culpa neque exercitationem! Doloremque eveniet, optio sequi mollitia quisquam porro nesciunt.</p>
              </div>
 
              <div class="paragrafo">
+                <div class="cabecalho">
                 <h2>Lorem ipsum dolor sei amet?</h2>
-                <button class="btn-troca-cor">
-                    <img src="./src/imagens/seta.png" class="setaOriginal" alt="seta">
+                <button class="btn-troca-cor" aria-expanded="true">
+                   <!--  <img src="./src/imagens/seta.png" class="setaOriginal" alt="seta"> -->
                 </button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
+                </div>
+                <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
              </div>
 
              <div class="paragrafo">
+                <div class="cabecalho">
                 <h2>Lorem ipsum dolor sit?</h2>
-                <button class="btn-troca-cor">
-                    <img src="./src/imagens/seta.png" class="setaOriginal" alt="seta">
+                <button class="btn-troca-cor" aria-expanded="false">
+                 <!--    <img src="./src/imagens/seta.png" class="setaOriginal" alt="seta"> -->
                 </button>
+                </div>
+                <p hidden>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati perferendis eveniet adipisci deleniti, ad sit sint eaque, minus officiis ipsa explicabo, quaerat error enim! Ab quae enim reprehenderit veniam repellendus?</p>
              </div>
     </div>
     <script src="./src/js/index.js"></script>

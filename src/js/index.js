@@ -1,24 +1,37 @@
-/* Pontos de atenção:
-ao clicar em uma pergunta deve acontecer
-uma animação de acordeon para abrir o item
-e mostrar o texto escondido, 
-
-
-ao clicar em um item para abri-lo todos os
-outros itens devem ser fechados. */ 
-
-
 const botoes = document.querySelectorAll(".btn-troca-cor");
 
  botoes.forEach((botao) => {
-  
-    botao.addEventListener("click", () => {
-        botoes.forEach((b) => {
-            const img = b.querySelector("img");
-                img.setAttribute("src", "./src/imagens/seta.png");
-            });
 
-            const imgClicada = botao.querySelector("img");
-            imgClicada.setAttribute("src", "./src/imagens/setaLaranja.png");
+    botao.addEventListener("click", () => {
+
+        if (botao.classList.contains("ativo")) {
+   // botão já estava ativado → então desativa
+
+
+        botoes.forEach((b) => {
+            b.classList.remove("ativo");
+            
+            /* const img = b.querySelector("img");
+            img.setAttribute("src", "./src/imagens/seta.png"); */
+
+            const paragrafo = b.closest(".paragrafo").querySelector("p");
+            paragrafo.setAttribute("hidden", ""); 
+
+            
+
+        }); /* }else { */
+
+        
+   // botão não estava ativado → então ativa
+} 
+        botao.classList.add("ativo");
+
+            /* const imgClicada = botao.querySelector("img");
+            imgClicada.setAttribute("src", "./src/imagens/setaLaranja.png"); */
+            
+            const container = botao.closest(".paragrafo");
+            const paragrafoAtivo = container.querySelector("p");
+            
+            paragrafoAtivo.removeAttribute("hidden");
     });
-});
+}); 
