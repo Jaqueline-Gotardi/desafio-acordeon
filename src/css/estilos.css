@@ -6,7 +6,7 @@ body {
 }
 
 .fundo {
-    display: flex;
+    display: flex;  
     gap: 30px;   
 }
 
@@ -34,7 +34,7 @@ img {
 
 .cabecalho {
     display: flex;
-    position: relative;
+    gap: 30px;
 }
 
 button {
@@ -58,45 +58,7 @@ button {
 .btn-troca-cor.ativo::before {
     background-image: url('../imagens/setaLaranja.png');
 }
-
-/* .setaOriginal {
-    width: 15px;
-    height: 10px;
-    position: absolute;
-    right: 9px;
-} */
-
-/* .setaOriginal img {
-    width: 15px;
-    height: 10px;
-    position: absolute;
-    right: 9px;
-} */
-
-/* .setaLaranja {
-    background-image: url("../imagens/setaLaranja.png");
-    width: 15px;
-    height: 10px;
-    position: absolute;
-    right: 9px
-} */
  
 .paragrafo {
     border: 1px solid #d4d4d4;
-   /*  width: 40vw;
-    height: 30px; */
-    /* display: flex;
-    align-items: center; */
 }
-
-/* .paragrafo p {
-    line-height: 100%;
-} */
-
-/* .paragrafo p {
-    display: none;
-} */
-
-/* .paragrafo.selecionado {
-    display: flex;
-} */
