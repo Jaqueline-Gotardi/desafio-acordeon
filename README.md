@@ -2,6 +2,7 @@
 
 Este é um exercício prático de manipulação do DOM com JavaScript puro. A proposta foi desenvolver uma seção de FAQ interativo, onde o usuário pode clicar em cada pergunta para revelar ou ocultar a resposta de forma simples e funcional.
 
+![preview da tela](src/imagens/tela-responsive.png)
 
 ## 🔧 Funcionalidades
 1. Exibe ou oculta respostas ao clique no botão;
